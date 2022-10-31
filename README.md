@@ -11,7 +11,7 @@ South China University of Technology, Guangzhou, China
 
 <!-- ![image](resources/DMA_Net.png) -->
 <div align="center">
-  <img src="./resources/DMA_Net.png" height="400">
+  <img src="./resources/DMA_Net.png"> width=100% height=100% 
 </div>
 <p align="center">
   Figure 1: Schematic diagram of the proposed deep mutual attention network.
