@@ -8,3 +8,11 @@ This repository provides the Official PyTorch implementation of **DMA-Net**, fro
 [Zitong Yu](https://sites.google.com/view/zitongyu), [Yanxiong Li](https://scholar.google.com/citations?user=ywDuJjEAAAAJ&hl=en)
 
 South China University of Technology, Guangzhou, China
+
+<!-- ![image](resources/DMA_Net.png) -->
+<div align="center">
+  <img src="./resources/DMA_Net.png" height="400">
+</div>
+<p align="center">
+  Figure 1: Schematic diagram of the proposed deep mutual attention network.
+</p>
