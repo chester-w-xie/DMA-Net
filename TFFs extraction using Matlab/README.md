@@ -12,4 +12,13 @@ While this scheme proves to be effective, it does introduce some complexities. I
 3. The time required for the feature extraction process is contingent upon the number of CPU cores. The extracted results will be stored in the "Results" folder.
 4. Transfer the feature files to the 'DMA-Net/TFFs' directory.
 
+<p align="center">
+<img src="./resources/process.png" width=100% height=100% 
+class="center">
+</p>
+<p align="center">
+  Figure 1: Schematic diagram of the proposed deep mutual attention network.
+</p>
+
+
 Done.
