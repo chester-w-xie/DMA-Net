@@ -7,18 +7,10 @@ I have explored several Python libraries for audio feature extraction. However, 
 While this scheme proves to be effective, it does introduce some complexities. I am hopeful that future developments will bring about enhanced integration and optimization for a smoother workflow.
 
 
-1. Download the dataset and placing it in the '/TFFs extraction using Matlab/data' directory. Then unzip the file.
+1. Download the dataset and place it in the '/TFFs extraction using Matlab/data' directory. Then unzip the file.
 2. Execute feature extraction by running the 'TFFs_extraction_Main.m' file. Feel free to modify the parameters in the file to obtain various features.
 3. The time required for the feature extraction process is contingent upon the number of CPU cores. The extracted results will be stored in the "Results" folder.
 4. Transfer the feature files to the 'DMA-Net/TFFs' directory.
-
-<p align="center">
-<img src="[resources/process.png](https://github.com/chester-w-xie/DMA-Net/blob/main/resources/process.png)" width=100% height=100% 
-class="center">
-</p>
-<p align="center">
-  Figure 1: Schematic diagram of the proposed deep mutual attention network.
-</p>
 
 
 Done.
