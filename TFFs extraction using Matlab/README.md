@@ -13,7 +13,7 @@ While this scheme proves to be effective, it does introduce some complexities. I
 4. Transfer the feature files to the 'DMA-Net/TFFs' directory.
 
 <p align="center">
-<img src="./resources/process.png" width=100% height=100% 
+<img src="[resources/process.png](https://github.com/chester-w-xie/DMA-Net/blob/main/resources/process.png)" width=100% height=100% 
 class="center">
 </p>
 <p align="center">
