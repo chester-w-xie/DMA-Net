@@ -94,6 +94,14 @@ class="center">
 </p>
 
 
+## Acknowledgment
+Our project references the codes in the following repos.
+
+- [dcase2018_task1](https://github.com/qiuqiangkong/dcase2018_task1/tree/master)
+- [cpjku_dcase20](https://github.com/kkoutini/cpjku_dcase20))
+
+
+
 ## Citation
 If you find this repository helpful, please consider citing:
 ```
