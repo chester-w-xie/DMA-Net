@@ -26,7 +26,7 @@ For the sake of simplicity, this repository provides instructions on processing 
 
 ## DATASET
 
-The dataset is downloadable from http://dcase.community/challenge2018/task-acoustic-scene-classification
+The dataset is downloadable from [here](http://dcase.community/challenge2018/task-acoustic-scene-classification)
 
 The dataset contains 10 classes of audio scenes, recorded with Device A, B and C. The statistic of the data is shown below:
 
@@ -41,7 +41,7 @@ The log mel spectrogram of the scenes are shown below:
 ![alt text](resources/logmel.png)
 
 
-## Requirements
+## 0. Requirements
 
 [Conda]( https://conda.io/projects/conda/en/latest/user-guide/install/index.html?highlight=conda ) should be installed on the system.
 
@@ -55,24 +55,43 @@ This creates conda environment ```DCASE``` with all the dependencies.
 
 
 
-## Time-frequency features (TFFs) extraction 
+## 1. Time-frequency features (TFFs) extraction 
 
 Please follow the instructions in [here](https://github.com/chester-w-xie/DMA-Net/tree/main/TFFs%20extraction%20using%20Matlab) to prepare the TFFs of all the audio files.
 
 
-## Integrate multiple feature files.
+## 2. Integrate multiple feature files.
 
 ```
 python matlab_feature_conversion.py --project_dir path to DMA-Net
 
 ```
 
-## Test the data loading function and normalize the features.
+## 3. Test the data loading function and normalize the features.
 
 ```
 python DatasetsManager.py --project_dir path to DMA-Net
 
 ```
+
+## 4. Run the main script.
+
+```
+python main.py --project_dir path to DMA-Net
+
+```
+The script is configured to conduct 10 trials by default, with the final results being aggregated for statistical analysis.
+
+
+You should obtain results similar to the following, which may vary based on your software and hardware configuration.
+
+<p align="center">
+<img src="./resources/final_result.png" width=100% height=100% 
+class="center">
+</p>
+<p align="center">
+  Figure 1: Schematic diagram of the proposed deep mutual attention network.
+</p>
 
 
 ## Citation
