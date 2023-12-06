@@ -20,6 +20,9 @@ class="center">
 
 
 
+For the sake of simplicity, this repository provides instructions on processing the DCASE2018-1a dataset using both PyTorch and MATLAB. However, it can easily be adapted for processing other datasets by making changes solely to the dataset path and label information.
+
+
 
 ## DATASET
 
