@@ -86,11 +86,11 @@ The script is configured to conduct 10 trials by default, with the final results
 You should obtain results similar to the following, which may vary based on your software and hardware configuration.
 
 <p align="center">
-<img src="./resources/final_result.png" width=100% height=100% 
+<img src="./resources/final_results.png" width=100% height=100% 
 class="center">
 </p>
 <p align="center">
-  Figure 1: Schematic diagram of the proposed deep mutual attention network.
+  final_results
 </p>
 
 
