@@ -55,6 +55,15 @@ This creates conda environment ```DCASE``` with all the dependencies.
 
 
 
+## Time-frequency feature extraction 
+
+Please follow the instructions in [here](https://github.com/chester-w-xie/DMA-Net/tree/main/TFFs%20extraction%20using%20Matlab) to prepare the TFFs of all the audio files.
+
+
+
+
+
+
 ## Citation
 If you find this repository helpful, please consider citing:
 ```
