@@ -13,11 +13,11 @@ While this scheme proves to be effective, it does introduce some complexities. I
 4. Transfer the feature files to the 'DMA-Net/TFFs' directory.
 
 <p align="center">
-<img src="./Results/process.png" width=100% height=100% 
+<img src="./Results/process.png" width=50% height=50% 
 class="center">
 </p>
 <p align="center">
-  Figure 1: Schematic diagram of the proposed deep mutual attention network.
+  Feature extraction process based on CPU parallelism.
 </p>
 
 Done.
