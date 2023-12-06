@@ -18,3 +18,25 @@ class="center">
   Figure 1: Schematic diagram of the proposed deep mutual attention network.
 </p>
 
+
+
+
+
+
+
+
+
+
+## Citation
+If you find this repository helpful, please consider citing:
+```
+@article{xie2022deep,
+  title={Deep mutual attention network for acoustic scene classification},
+  author={Xie, Wei and He, Qianhua and Yu, Zitong and Li, Yanxiong},
+  journal={Digital Signal Processing},
+  volume={123},
+  pages={103450},
+  year={2022},
+  publisher={Elsevier}
+}
+```
