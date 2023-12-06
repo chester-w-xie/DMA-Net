@@ -55,13 +55,24 @@ This creates conda environment ```DCASE``` with all the dependencies.
 
 
 
-## Time-frequency feature extraction 
+## Time-frequency features (TFFs) extraction 
 
 Please follow the instructions in [here](https://github.com/chester-w-xie/DMA-Net/tree/main/TFFs%20extraction%20using%20Matlab) to prepare the TFFs of all the audio files.
 
 
+## Integrate multiple feature files.
 
+```
+python matlab_feature_conversion.py --project_dir path to DMA-Net
 
+```
+
+## Test the data loading function and normalize the features.
+
+```
+python DatasetsManager.py --project_dir path to DMA-Net
+
+```
 
 
 ## Citation
