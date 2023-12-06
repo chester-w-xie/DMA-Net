@@ -38,6 +38,17 @@ The log mel spectrogram of the scenes are shown below:
 ![alt text](resources/logmel.png)
 
 
+## Requirements
+
+[Conda]( https://conda.io/projects/conda/en/latest/user-guide/install/index.html?highlight=conda ) should be installed on the system.
+
+* Install [Anaconda](https://www.anaconda.com/) or conda
+
+* Run the install dependencies script:
+```bash
+conda env create -f environment.yml
+```
+This creates conda environment ```DCASE``` with all the dependencies.
 
 
 
